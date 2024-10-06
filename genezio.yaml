@@ -1,0 +1,10 @@
+frontend:
+    path: ./
+    publish: ""
+    scripts:
+        build: npm dev build
+        deploy: npm dev install
+    subdomain: mediumblue-russian-ant
+name: test
+region: us-east-1
+yamlVersion: 2
